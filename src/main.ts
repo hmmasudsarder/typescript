@@ -6,6 +6,30 @@
 
 // assign a Array 
 
-let myNameList: [string, boolean] = ["masud", true]
+// let myNameList: [string, boolean] = ["masud", true]
 
-console.log(myNameList);
+// console.log(myNameList);
+
+// let myName : object
+
+// myName = []
+// console.log(typeof myName);
+
+type Guitarist = {
+    name: string,
+    active: boolean,
+    albums: (string | number)[]
+}
+
+let evh: Guitarist = {
+    name: "Eddie",
+    active: true,
+    albums: [103, 453, "OU812"]
+}
+
+let jp: Guitarist = {
+    name: "jimmy",
+    active: true,
+    albums: ["I", "II", "IV"]
+}
+
