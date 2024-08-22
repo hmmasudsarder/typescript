@@ -1,3 +1,3 @@
 let myName = "Masud"
 
-myName = 3
+let number: = 23
