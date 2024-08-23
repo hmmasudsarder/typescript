@@ -15,11 +15,11 @@
 // myName = []
 // console.log(typeof myName);
 
-type Guitarist = {
-    name: string,
-    active: boolean,
-    albums: (string | number)[]
-}
+// type Guitarist = {
+//     name: string,
+//     active: boolean,
+//     albums: (string | number)[]
+// }
 
 // let evh: Guitarist = {
 //     name: "Eddie",
